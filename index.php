@@ -1,5 +1,5 @@
 <?php
-$data = "https://spreadsheets.google.com/feeds/list/GoogleスプレッドシートのIDを入力/od6/public/values?alt=json";
+$data = "https://spreadsheets.google.com/feeds/list/1YQdXyqrOwHcdQSh0Jt6hntMGGOHBdGgvwHCgbUTtj6w/od6/public/values?alt=json";
 $json = file_get_contents($data);
 $json_decode = json_decode($json);
 
